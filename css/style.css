@@ -366,6 +366,8 @@ h6{
 
 .top_menu .navbar-brand .logo{
     margin-top: -12px;
+    width: 30%;
+    height: auto;
 }
 
 .top_menu .navbar-brand .logo-sticky{
@@ -657,11 +659,21 @@ h6{
 /* --------------------------
 :: 6. Why is the best & Special Area CSS
 -------------------------- */
-#features .row{
-    margin-top: 70px;
-}
+
 .feature-listing{
     margin-left: 15%;
+}
+@media only screen and (max-width: 520px){
+    .feature-listing{
+        margin-left: 0;
+    }
+}
+.feature-listing-1 ul{
+    list-style: none;
+}
+.feature-listing-1 ul li i{
+    margin-right: 5px;
+    color: #000;
 }
 .feature-listing ul{
     list-style: none;
