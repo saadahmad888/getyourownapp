@@ -338,6 +338,23 @@ h6{
 :: 2. Header Area CSS
 -------------------------- */
 
+.sitelogo img{
+    width: 40%;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 992px){
+    .sitelogo img{
+        width: 50%;
+        text-align: center!important;
+    }
+    .main-btn button{
+        visibility: hidden;
+    }
+}
+.main-btn button{
+    float: right;
+    margin-top: 22px;
+}
 .main-header {
     left: 0;
     position: absolute;
@@ -666,6 +683,7 @@ h6{
 @media only screen and (max-width: 520px){
     .feature-listing{
         margin-left: 0;
+        margin-top: 50px;
     }
 }
 .feature-listing-1 ul{
@@ -792,7 +810,10 @@ h6{
 .facts-content h2{
     font-weight: bold;
 }
-
+.facts-content h4{
+    font-weight: bold;
+    color: #fff;
+}
 .facts-content > i {
     color: #ffffff;
     font-size: 36px;
