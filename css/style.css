@@ -153,7 +153,9 @@ ul > li{
 .mb-15 {
     margin-bottom: 15px;
 }
-
+.mb-25{
+    margin-bottom: 25px;
+}
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -302,6 +304,23 @@ section{
     margin-left: 5px;
 }
 
+.btn-of-state{
+    height: 50px;
+    min-width: 167px;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #090979;
+    color: #fff;
+    border-color: #090979;
+    padding-bottom: 4px;
+}
+.btn-of-state:hover{
+    background: linear-gradient(to right, #090979 0%,  #676767 100%);
+    color: #fff;
+    border-color: #090979;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
 
 .btn{
 	height: 50px;
@@ -349,6 +368,8 @@ h6{
     }
     .main-btn button{
         visibility: hidden;
+    }
+    .logo-center{    text-align: center !important;
     }
 }
 .main-btn button{
@@ -569,7 +590,24 @@ h6{
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+/* --------------------------
+:: 4. first Section
+-------------------------- */
 
+.first-sec-txt ul{
+ list-style: none;
+}
+.first-sec-txt ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.first-sec-txt ul li a:hover{
+    text-decoration: underline;
+}
+.first-sec-txt ul li i{
+    margin-right: 10px;
+}
 
 /* --------------------------
 :: 4. How it works Area CSS
@@ -628,7 +666,6 @@ h6{
     margin-bottom: 63px;
     
 }
-
 
 
 .feature-single:hover {
@@ -848,86 +885,197 @@ h6{
 /* --------------------------
 :: 8. Pricing Plan Area CSS
 -------------------------- */
-
-.pricing-plane-area {
-    background: #f5f9fc;
+.float-left{
+    text-align: left;
+    margin-left: 30px;
 }
 
-.plan-item {
-    background: #ffffff;
-    border: 1px solid rgb(235, 235, 235);
-    border-radius: 40px;
-    margin-bottom: 30px;
+.set-border tr td{
+    border: none;
+}
+.set-height{
+    height: 100px;
+}
+.price h1{
+    line-height: 5rem!important;
 }
 
-.plan-item .package-price h4{ 
-    font-family:inherit;   
-    background: -webkit-gradient(linear, left top, right top, from(#6541c1), color-stop(98%, #0A1195), to(#0A1195));
-    background: linear-gradient(to right, #6541c1 0%, #0A1195 98%, #0A1195 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 53px;
-    font-weight: 200;
-    line-height: 1em;
-    margin-bottom: 40px;
-    margin-top: 40px;
+@media only screen and (max-width:992px){
+
+.logo-center{    text-align: center !important;
+}
 }
 
-.plan-item .package-description .fa-times {
-    color: rgb(109, 106, 108);
 
+.pringsection{
+    padding-top:10px!important;
+    padding-bottom: 10px!important;
+    color: #221a9b;
+}
+.set-f-color{
+    color: #221a9b;
+}
+.pay-btn{
+    /* padding-bottom: 60px!important; */
+    padding: 10px 20px 60px 20px!important;
 }
 
-.plan-item .package-description .fa-check {
-    color: #6541c1;
-
+.payment{
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
-.plan-item .plan-button > a {
-    background: #636d75;
-    padding: 10px 0;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    display: block;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
+
+
+
+
+
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    margin: 50px;
+    padding: 0px 20px;
+
+}
+.pricing-table{
+   box-shadow: 0px 0px 18px #ccc;
+   text-align: center;
+   padding: 30px 0px;
+   border-radius: 5px;
+   position: relative;
+ 
+}
+.pricing-table .head {
+    border-bottom:1px solid #eee;
+    padding-bottom: 50px;
+    transition: all 0.5s ease;
+}
+.pricing-table:hover .head{
+   border-bottom:1px solid #8E2DE2;
+   
 }
 
-.plan-item .package-description > p {
-    margin-bottom: 0;
-    line-height: 1;
-    padding: 20px 20px;
-    border-bottom: 1px solid #ebebeb;
-}
-
-.plan-item .package-description > p:first-child {
-    border-top: 1px solid #ebebeb;
-    padding: 20px 20px;
+.pricing-table .head .title{
+    margin-bottom: 20px;
+    font-size: 20px;
     font-weight: 700;
 }
 
-.plan-item:hover .plan-button > a {
-    background-color: white;
-    color: #636d75;
+.pricing-table .content .price{
+    background:linear-gradient(to right, #8E2DE2 0%, #4A00E0 100%);
+    width: 80%;
+    height: 90px;
+    margin: auto;
+    line-height: 90px;
+    border-radius: 30px;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: -50px;
+     transition: all 0.5s ease;
 }
-
-.pricing-detail{
-    background-image:linear-gradient(90deg, #6541c1 0%, #0A1195 100%);
-    color: white;
-    padding : 10px 30px 1px;
-    border-radius: 40px;
+.pricing-table:hover .content .price{
+    transform: scale(1.2);
+ 
 }
-
-.pricing-detail > h5{
+.pricing-table .content .price h1{
+    color:#fff;
     font-size: 30px;
-    font-family: inherit;   
-    color: #fff;
-
+    font-weight: 700;
+}
+.pricing-table .content ul{
+   list-style-type: none;
+   margin-bottom: 20px;
+   padding-top: 10px;
 }
 
+.pricing-table .content ul li{
+    margin: 20px 0px;
+    font-size: 14px;
+    color:#555;
+}
+
+.pricing-table .content .sign-up{
+    background:linear-gradient(to right, #8E2DE2 0%, #4A00E0 100%);
+    border-radius: 40px;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+}
+
+
+.pricing-table .btn {
+	color: #fff;
+	padding: 14px 40px;
+	display: inline-block;
+	text-align: center;
+	font-weight: 600;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3 linear;
+	transition: all 0.3 linear;
+	border: none;
+	font-size: 14px;
+	text-transform: capitalize;
+	position: relative;
+	text-decoration: none;
+    margin: 2px;
+    z-index: 9999;
+    text-decoration: none;
+    border-radius:50px;
+ 
+}
+
+.pricing-table .btn:hover{
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.pricing-table .btn.bordered {
+	z-index: 50;
+	color: #333;
+}
+/* .pricing-table:hover .btn.bordered{
+	color:#FFF !important;
+} */
+
+.sign-up a:hover{
+    color: #fff!important;
+}
+
+.pricing-table .btn.bordered:after {
+	background: #fff none repeat scroll 0 0;
+	border-radius: 50px;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3 linear;
+	transition: all 0.3 linear;
+	width: 100%;
+	z-index: -1;	
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+	transform:scale(1);
+}
+.pricing-table:hover .btn.bordered:after{
+	opacity:0;
+	transform:scale(0);
+}
+
+@media screen and (max-width:768px){
+   .wrapper{
+        grid-template-columns: repeat(2,1fr);
+    } 
+}
+
+@media screen and (max-width:600px){
+   .wrapper{
+        grid-template-columns: 1fr;
+    } 
+}
 
 
 /* --------------------------
@@ -1026,8 +1174,19 @@ h6{
     animation-iteration-count: infinite;
 }
 
-
-
+/* --------------------------
+:: 11. covid section
+-------------------------- */
+.card-img-top{
+    height: 300px;
+}
+.card-img-top{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.covid-sec-box .card{
+    border-radius: 10px;
+}
 /* --------------------------
 :: 11. Blog Area CSS
 -------------------------- */
