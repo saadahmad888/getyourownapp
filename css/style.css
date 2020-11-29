@@ -976,7 +976,7 @@ h6{
 
 .pricing-table .content .price{
     background:linear-gradient(to right, #8E2DE2 0%, #4A00E0 100%);
-    width: 80%;
+    width: 50%;
     height: 90px;
     margin: auto;
     line-height: 90px;

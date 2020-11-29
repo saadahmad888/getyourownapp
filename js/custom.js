@@ -162,3 +162,6 @@ $('.popup').magnificPopup({
         }
     }
 });
+
+
+
