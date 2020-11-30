@@ -1612,7 +1612,7 @@ footer{
     padding-top: 6%;
     padding-right: 6%;
 }
-.cong-btn{
+/* .cong-btn{
     height: 50px;
     min-width: 167px;
     text-align: center;
@@ -1630,7 +1630,7 @@ footer{
     border-color: #090979;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
-}
+} */
 .pay-btnn{
     /* padding-bottom: 60px!important; */
     padding: 15px 20px 20px 20px!important;
