@@ -1603,6 +1603,44 @@ footer{
 .footer-link:hover{
     color: #fff;
 }
+
+/* --------------------------
+:: 15. cong-page
+-------------------------- */
+.cong-page-top-box-txt{
+    padding-left: 6%;
+    padding-top: 6%;
+    padding-right: 6%;
+}
+.cong-btn{
+    height: 50px;
+    min-width: 167px;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #090979;
+    color: #fff;
+    border-color: #090979;
+    padding-bottom: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.cong-btn:hover{
+    background: linear-gradient(to right, #090979 0%,  #676767 100%);
+    color: #fff;
+    border-color: #090979;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.pay-btnn{
+    /* padding-bottom: 60px!important; */
+    padding: 15px 20px 20px 20px!important;
+}
+.cong-pricing .section-heading h4{
+    line-height: 30px;
+}
+.cong-pricing .section-heading h2{
+    margin-bottom: 30px;
+}
 /* --------------------------
 :: 15. Responsive CSS
 -------------------------- */
