@@ -1645,6 +1645,28 @@ footer{
 /* .cong-pricing .section-heading h2{
     margin-bottom: 30px;
 } */
+
+/* --------------------------
+:: 15. Input Page
+-------------------------- */
+.affir-example-box{
+    border: 1px solid #f2f2f2;
+    width: 80%;
+    margin: 0 auto;
+}
+.affir-example-box p{
+    margin-top: 15px;
+}
+.quote-example-box{
+    border: 1px solid #f2f2f2;
+    width: 80%;
+    margin: 0 auto;
+}
+.quote-example-box p{
+    margin-top: 15px;
+}
+
+
 /* --------------------------
 :: 15. Responsive CSS
 -------------------------- */
